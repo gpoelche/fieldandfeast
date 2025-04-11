@@ -1,3 +1,6 @@
+/*IMPORT STYLES*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 /*CSS RESET*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -46,4 +49,14 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+:root{
+	--midnight-blue: #1F2A44;
+	--olive-green: #76885B;
+	--champagne-gold: #E5C185;
+	--linen: #F8F4EC;
+	--dark-charcoal: #2B2B2B;
+	--soft-white: #FAF9F6;
+	
 }
