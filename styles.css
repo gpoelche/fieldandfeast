@@ -1,4 +1,6 @@
-/*IMPORT STYLES*/
+/*CSS BY GEORGE POELCHER III*/
+
+/*IMPORTED FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 /*CSS RESET*/
@@ -51,6 +53,7 @@ table {
 	border-spacing: 0;
 }
 
+/*ROOT VARIABLES*/
 :root{
 	--midnight-blue: #1F2A44;
 	--olive-green: #76885B;
@@ -58,5 +61,104 @@ table {
 	--linen: #F8F4EC;
 	--dark-charcoal: #2B2B2B;
 	--soft-white: #FAF9F6;
-	
+	--main-font: 'Playfair Display';
 }
+
+/*GLOBAL STYLES*/
+body{
+	font-family: var(--main-font);
+	line-height: 1.5;
+}
+
+header{
+	background-color: var(--midnight-blue);
+	color: var(--linen);
+	text-align: center;
+}
+
+header p{
+	font-style: italic;
+	padding-bottom: 20px;
+}
+
+nav{
+	background-color: var(--champagne-gold);
+	padding: 15px 0px;
+}
+
+nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+nav li{
+	font-size: 1.5rem;
+}
+
+nav a{
+	text-decoration: none;
+	color: var(--midnight-blue);
+	font-weight: bold;
+}
+
+main{
+	padding: 0px 20px;
+	padding-top: 50px;
+}
+
+footer{
+	background-color: var(--midnight-blue);
+	color: var(--linen);
+	text-align: center;
+	padding: 40px 0px;
+}
+
+footer a{
+	color: var(--champagne-gold);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+footer address{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h1{
+	font-size: 4.5rem;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 2rem;
+	color: var(--midnight-blue);
+}
+
+h3{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+main section{
+	border-bottom: 5px;
+}
+
+#offerings section{
+	background-color: var(--olive-green);
+	color: var(--soft-white);
+	margin: 15px 0px;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+#offerings li{
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+#gallery section{
+	border-radius: 20px;
+	background-color: var(--linen);
+}
+
